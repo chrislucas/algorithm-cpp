@@ -3,7 +3,11 @@
 	<iostream>
 	<vector>
 
+<<<<<<< HEAD
 1474889591 source:c:\users\c.lucas\documents\algorithm-cpp\heap\main.cpp
+=======
+1474907361 source:c:\users\chrislucas\documents\repositories\github\algorithm-cpp\heap\main.cpp
+>>>>>>> 418621c45f65ddee0bf84413f9a048aad00e0a82
 	<iostream>
 	<iterator>
 	<limits>

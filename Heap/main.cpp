@@ -205,6 +205,14 @@ void run_1() {
     bh.add(3);
     bh.print();
     cout << bh.extractMin() << endl;
+    bh.add(5);
+    bh.print();
+    bh.add(11);
+    bh.print();
+    bh.add(2);
+    bh.print();
+    bh.deleteMin();
+    return;
 }
 
 int main()
