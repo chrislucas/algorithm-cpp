@@ -81,19 +81,19 @@ BinaryHeap<T>::BinaryHeap() {
 template<class T>
 T BinaryHeap<T>::left(int parent) {
     int idx = 2 * parent + 1;
-    return idx < _heap.size() ? idx : INF;
+    return idx < _heap.size() ? idx : -1;
 }
 
 template<class T>
 T BinaryHeap<T>::right(int parent) {
     int idx = 2 * parent + 2;
-    return idx < _heap.size() ? idx : INF;
+    return idx < _heap.size() ? idx : -1;
 }
 
 template<class T>
 T BinaryHeap<T>::parent(int child) {
     int idx = (child - 1) / 2;
-    return child == 0 ? INF : idx;
+    return child == 0 ? -1 : idx;
 }
 
 
@@ -158,18 +158,18 @@ T BinaryHeap<T>::get(int idx) {
     return  validate(idx) ? /*_heap.at(idx)*/ _heap[idx] : NULL;
 }
 
-// Maintai heap bottom up
+// Maintain heap bottom up
 template<class T>
 void BinaryHeap<T>::heapifyup(int idx) {
     int p  = parent(idx);
     if(idx >= 0 && p >= 0) {
-        int hp = _heap[p];
-        int hi = _heap[idx];
+        int hp = _heap[p];          // no pai
+        int hi = _heap[idx];        // o proprio no
         if(hp > hi) {
             int tmp = _heap[idx];
-            _heap[idx] = _heap[hp];
-            _heap[hp] = tmp;
-            heapifyup(hp);
+            _heap[idx] = _heap[p];
+            _heap[p] = tmp;
+            heapifyup(p);
         }
     }
     return;
@@ -209,7 +209,7 @@ void run_1() {
 
 int main()
 {
-    cout<< INF <<" " << ((1<<31)-1) << endl ;
+    //cout<< INF <<" " << ((1<<31)-1) << endl ;
     run_1();
     return 0;
 }
