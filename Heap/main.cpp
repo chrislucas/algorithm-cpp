@@ -158,13 +158,13 @@ T BinaryHeap<T>::get(int idx) {
     return  validate(idx) ? /*_heap.at(idx)*/ _heap[idx] : NULL;
 }
 
-// Maintai heap bottom up
+// Maintain heap bottom up
 template<class T>
 void BinaryHeap<T>::heapifyup(int idx) {
     int p  = parent(idx);
     if(idx >= 0 && p >= 0) {
-        int hp = _heap[p];
-        int hi = _heap[idx];
+        int hp = _heap[p];          // no pai
+        int hi = _heap[idx];        // o proprio no
         if(hp > hi) {
             int tmp = _heap[idx];
             _heap[idx] = _heap[p];

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1477062478 source:c:\users\christoffer\desktop\oj\fndroot\main.cpp
+	<iostream>
+	<cstdio>
+

@@ -1,0 +1,3 @@
+http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
+
+http://www.geeksforgeeks.org/closest-pair-of-points/

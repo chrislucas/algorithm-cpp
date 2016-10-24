@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="URI1093/URI1093.cbp" />
+		<Project filename="minimax/minimax.cbp" />
+		<Project filename="branchandbound/branchandbound.cbp" />
+		<Project filename="3-largest/3-largest.cbp" />
+		<Project filename="k-largest/k-largest.cbp" />
+		<Project filename="knapsack-01/knapsack-01.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
