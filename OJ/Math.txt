@@ -1,0 +1,17 @@
+Algebra Linear
+
+http://introcs.cs.princeton.edu/java/95linear/
+http://introcs.cs.princeton.edu/java/95linear/GaussianElimination.java.html
+https://en.wikipedia.org/wiki/Gaussian_elimination
+http://www.cs.rutgers.edu/~venugopa/parallel_summer2012/ge.html
+
+
+URI 1093
+https://github.com/miguelarauj1o/URI/blob/master/src/UOJ_1093%20-%20(2757732)%20Accepted.cpp
+https://github.com/osmangoninahid/Online-Judge-Solution/blob/master/URI/1093.cpp
+https://en.wikipedia.org/wiki/Gambler%27s_ruin
+http://math.stackexchange.com/questions/1205096/gamblers-ruin-formula
+https://www.urionlinejudge.com.br/judge/pt/problems/view/1289
+
+Probabilidade
+https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/expected-value-lib/e/expected_value
