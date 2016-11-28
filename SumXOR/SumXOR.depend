@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478038076 source:c:\users\christoffer\documents\repositories\github\algorithm-cpp\sumxor\main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+
