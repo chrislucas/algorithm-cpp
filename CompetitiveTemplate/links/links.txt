@@ -1,0 +1,8 @@
+https://www.quora.com/What-template-do-you-use-in-competitive-programming
+https://github.com/ankeshanand/acm-icpc-library/blob/master/template.cpp
+https://gist.github.com/KodeKracker/e09f9d23573f117a5db0
+
+https://www.ucoder.com.br/courses/
+
+bitwise
+http://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/

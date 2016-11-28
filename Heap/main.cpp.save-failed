@@ -217,18 +217,18 @@ void run_1() {
 }
 
 void runTest2() {
-    BinaryHeap<int> heap;
+
     int nums[] = {2,8,5,1,10,5,9,9,3,5};
     for(auto x : nums) {
+         BinaryHeap<int> heap;
          heap.add(x)
     }
     heap.print();
-    return;
 }
 
 int main()
 {
     //cout<< INF <<" " << ((1<<31)-1) << endl ;
-    runTest2();
+    run_1();
     return 0;
 }
