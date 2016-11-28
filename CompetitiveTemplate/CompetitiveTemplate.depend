@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1464580075 source:c:\users\c.lucas\desktop\mvs_workspace\competitivetemplate\main.cpp
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<utility>
+	<vector>
+	<stack>
+	<deque>
+	<queue>
+	<limits>
+	<climits>
+	<cstdio>
+	<cmath>
+	<ctime>
+	<cstring>
+	<cstdlib>
+	<cassert>
+	<time.h>
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<numeric>
+	<bitset>
+	<iterator>
+	<list>
+	<stack>
+	<map>
+	<set>
+	<sstream>
+	<string>
+	<bits/stdc++.h>
+
