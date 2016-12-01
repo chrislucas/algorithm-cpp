@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1480510592 source:c:\users\c.lucas\documents\algorithm-cpp\judges\hackerrank\algo\warmup\big_sum\main.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<string>
+	<sstream>
+	<vector>
+

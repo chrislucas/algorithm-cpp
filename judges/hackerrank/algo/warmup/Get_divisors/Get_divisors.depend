@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1480594259 source:c:\users\c.lucas\documents\algorithm-cpp\judges\hackerrank\algo\warmup\get_divisors\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
